@@ -1,6 +1,7 @@
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+<<<<<<< HEAD
 
 ## User settings
 xcuserdata/
@@ -13,6 +14,14 @@ xcuserdata/
 build/
 DerivedData/
 *.moved-aside
+=======
+.DS_Store
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+>>>>>>> bbfb509 (First commit)
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -21,15 +30,28 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+<<<<<<< HEAD
 
 ## Obj-C/Swift specific
 *.hmap
 
 ## App packaging
+=======
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+>>>>>>> bbfb509 (First commit)
 *.ipa
 *.dSYM.zip
 *.dSYM
 
+<<<<<<< HEAD
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
@@ -48,6 +70,8 @@ playground.xcworkspace
 
 .build/
 
+=======
+>>>>>>> bbfb509 (First commit)
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
@@ -55,15 +79,19 @@ playground.xcworkspace
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
+<<<<<<< HEAD
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
 # *.xcworkspace
+=======
+>>>>>>> bbfb509 (First commit)
 
 # Carthage
 #
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
 # Carthage/Checkouts
 
+<<<<<<< HEAD
 Carthage/Build/
 
 # Accio dependency management
@@ -74,12 +102,24 @@ Dependencies/
 #
 # It is recommended to not store the screenshots in the git repo.
 # Instead, use fastlane to re-generate the screenshots whenever they are needed.
+=======
+Carthage/Build
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+>>>>>>> bbfb509 (First commit)
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
 
 fastlane/report.xml
 fastlane/Preview.html
+<<<<<<< HEAD
 fastlane/screenshots/**/*.png
+=======
+fastlane/screenshots
+>>>>>>> bbfb509 (First commit)
 fastlane/test_output
 
 # Code Injection
